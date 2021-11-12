@@ -97,6 +97,8 @@ public class SassBuilder {
             System.out.println("Во время сборки, что-то пошло не так");
         }
 
+        System.out.println("Нажмите любую клавишу, чтобы продолжить...");
+
         scanner.nextLine();
 
         Main.toMenu();
